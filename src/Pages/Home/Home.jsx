@@ -49,10 +49,10 @@ const Home = ({img1,img2,img3,one,two,three,four,saf,map,stu}) => {
    </div>
    </div>
    <div className='flex justify-between my-[5vh] md:flex-col text-start md:text-center'>
-    < Saf img={saf} name={"Iffatoy"}/>
-    < Saf img={saf} name={"Iffatoy"}/>
-    < Saf img={saf} name={"Iffatoy"}/>
-    < Saf img={saf} name={"Iffatoy"}/>
+    < Saf img={saf} name={"Domullojonova Iffatoy"}/>
+    < Saf img={saf} name={"Nasrieva Robiya"}/>
+    < Saf img={saf} name={"Hotami Najmiya"}/>
+    < Saf img={saf} name={"Safia Dodojonova"}/>
    </div>
    <Button variant='outlined' sx={{color:"green"}}>Все специалисты</Button>
   </div>
