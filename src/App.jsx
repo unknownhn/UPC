@@ -26,6 +26,11 @@ import saf from './assets/saf.png';
 import icon from './assets/icon.png';
 import map from "./assets/map.png";
 import students from './assets/students.jfif';
+import ava1 from './assets/ava1.jpg';
+import ava2 from './assets/ava2.jpg';
+import ava3 from './assets/ava3.jpg';
+import ava4 from './assets/ava4.jpg';
+
 
 function App() {
  
@@ -36,7 +41,7 @@ function App() {
       {
         index:true,
         element:<Home img1={img1} img2={img2} img3={img3} one={one} 
-        two={two} three={three} four={four} saf={saf} icon={icon} map={map} stu={students} />
+        two={two} three={three} four={four} saf={saf} icon={icon} map={map} stu={students} ava1={ava1} ava2={ava2} ava3={ava3} ava4={ava4} />
       },
       {
         path:"/about",

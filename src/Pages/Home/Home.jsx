@@ -3,7 +3,7 @@ import React from 'react'
 import Saf from '../../components/Saf'
 import Sam from '../../components/Sam'                                              
 
-const Home = ({img1,img2,img3,one,two,three,four,saf,map,stu}) => {
+const Home = ({img1,img2,img3,one,two,three,four,saf,map,stu,ava1,ava2,ava3,ava4}) => {
   return (
  <>
   <div className='bg-[#4585fb] pt-[10vh] px-[5%] py-[10vh] flex justify-between dark:bg-[black] dark:text-[white] items-center md:flex-col'>
@@ -49,10 +49,10 @@ const Home = ({img1,img2,img3,one,two,three,four,saf,map,stu}) => {
    </div>
    </div>
    <div className='flex justify-between my-[5vh] md:flex-col text-start md:text-center'>
-    < Saf img={saf} name={"Domullojonova Iffatoy"}/>
-    < Saf img={saf} name={"Nasrieva Robiya"}/>
-    < Saf img={saf} name={"Hotami Najmiya"}/>
-    < Saf img={saf} name={"Safia Dodojonova"}/>
+    < Saf img={ava1} name={"Domullojonova Iffatoy"}/>
+    < Saf img={ava2} name={"Nasrieva Robiya"}/>
+    < Saf img={ava3} name={"Hotami Najmiya"}/>
+    < Saf img={ava4} name={"Safia Dodojonova"}/>
    </div>
    <Button variant='outlined' sx={{color:"green"}}>Все специалисты</Button>
   </div>
